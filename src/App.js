@@ -16,12 +16,12 @@ function App() {
   }, [setDataAnggota])
 
   return (
-    <div className='min-h-screen p-[5vh] bg-yellow-500'>
-      <div className='flex justify-center text-8xl bg-red-200'>
+    <div className='min-h-screen p-[5vh]'>
+      <div className='flex justify-center text-8xl'>
         <img src={logo} alt="" className='w-1/2 xl:w-1/6' />
       </div>
       {dataAnggota?.map(item => (
-        <div className='flex justify-center text-2xl bg-green-200 my-2' key={item.id}>
+        <div className='flex justify-center text-2xl my-2' key={item.id}>
           {item.email}
         </div>
       ))}
