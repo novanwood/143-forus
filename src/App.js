@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='min-h-screen p-[5vh]'>
-      <div className='flex justify-center text-8xl'>
+      <div className='flex justify-center text-8xl mb-10'>
         <img src={logo} alt="" className='w-1/2 xl:w-1/6' />
       </div>
       {dataAnggota?.map(item => (
